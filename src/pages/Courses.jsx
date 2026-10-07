@@ -15,15 +15,13 @@ const courses = [
     description:
       "Learn computer applications, MS Office, internet, accounting and practical computer skills.",
     duration: "12 Months",
-    fee: "₹8,000",
+    fee: "₹13,000",
     eligibility: "10th / 12th Pass",
     learn: [
       "Computer Fundamentals",
       "MS Office",
       "Internet & Digital Skills",
       "Advanced MS Office",
-      "Tally Prime & GST",
-      "Data Entry & Typing",
       "Practical Computer Applications",
     ],
   },
@@ -37,8 +35,6 @@ const courses = [
     eligibility: "10th / 12th Pass",
     learn: [
       "Advanced MS Office",
-      "Tally Prime & GST",
-      "Graphic Design",
       "Internet & Digital Skills",
       "Data Entry",
       "Computer Hardware Basics",
@@ -51,7 +47,7 @@ const courses = [
     description:
       "Professional computer application course designed for graduates who want advanced IT skills.",
     duration: "12 Months",
-    fee: "₹10,000",
+    fee: "₹17,000",
     eligibility: "Graduation",
     learn: [
       "Computer Fundamentals",
@@ -68,8 +64,8 @@ const courses = [
     subtitle: "Basic Computer Course",
     description:
       "A beginner-friendly course to learn essential computer and digital skills.",
-    duration: "3 Months",
-    fee: "₹2,500",
+    duration: "6 Months",
+    fee: "₹5,000",
     eligibility: "8th / 10th Pass",
     learn: [
       "Computer Fundamentals",
@@ -86,8 +82,8 @@ const courses = [
     subtitle: "Data Entry Operator",
     description:
       "Build professional data entry, typing and office documentation skills.",
-    duration: "3 Months",
-    fee: "₹3,500",
+    duration: "6 Months",
+    fee: "₹7,999",
     eligibility: "10th Pass",
     learn: [
       "English & Hindi Typing",
@@ -104,8 +100,8 @@ const courses = [
     subtitle: "Accounting & GST Course",
     description:
       "Learn accounting, Tally Prime, GST, billing and inventory management.",
-    duration: "3 Months",
-    fee: "₹4,000",
+    duration: "6 Months",
+    fee: "₹8,000",
     eligibility: "10th / 12th Pass",
     learn: [
       "Accounting Fundamentals",
@@ -123,7 +119,7 @@ const courses = [
     description:
       "Learn basic computer knowledge, MS Office, internet and digital literacy.",
     duration: "3 Months",
-    fee: "₹2,500",
+    fee: "₹4,999",
     eligibility: "10th Pass",
     learn: [
       "Computer Fundamentals",
