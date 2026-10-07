@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 import { navLinks } from "../../data/site";
+import logo from "../../assets/lili-logo.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
         <Link to="/" className="flex items-center gap-3">
           <img
-            src="/src/assets/lili-logo.png"
+            src={logo}
             alt="Lili Org."
             className="h-12 w-12 object-contain"
           />
@@ -29,10 +30,9 @@ export default function Navbar() {
               key={item.path}
               to={item.path}
               className={({ isActive }) =>
-                `text-sm font-semibold transition ${
-                  isActive
-                    ? "text-brand-blue"
-                    : "text-slate-700 hover:text-brand-blue"
+                `text-sm font-semibold transition ${isActive
+                  ? "text-brand-blue"
+                  : "text-slate-700 hover:text-brand-blue"
                 }`
               }
             >
@@ -44,7 +44,7 @@ export default function Navbar() {
             to="/contact"
             className="rounded-md bg-brand-yellow px-5 py-2.5 text-xs font-extrabold text-slate-900 shadow-sm hover:bg-yellow-300"
           >
-            admission open
+            Admission Open
           </Link>
         </div>
 
