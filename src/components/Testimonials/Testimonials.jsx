@@ -1,3 +1,5 @@
+import studentsImage from "../../assets/students.jpg";
+
 const testimonials = [
   ["Anita", "The guidance and support helped me build my skills with confidence."],
   ["Ayush kumar", "The faculty is amazing and the study material is excellent."],
@@ -23,7 +25,7 @@ export default function Testimonials() {
             <div className="flex gap-4">
               <div className="h-14 w-14 shrink-0 overflow-hidden rounded-full bg-slate-100">
                 <img
-                  src="/src/assets/students.jpg"
+                  src={studentsImage}
                   alt=""
                   className="h-full w-full object-cover"
                 />

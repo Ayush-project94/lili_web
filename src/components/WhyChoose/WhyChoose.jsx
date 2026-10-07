@@ -1,3 +1,5 @@
+import classroomImage from "../../assets/classroom.jpg";
+
 export default function WhyChoose() {
   const points = [
     "Experienced & Qualified Faculty",
@@ -11,7 +13,7 @@ export default function WhyChoose() {
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 md:grid-cols-2">
         <div className="relative">
           <img
-            src="/src/assets/classroom.jpg"
+            src={classroomImage}
             alt="Lili Institute classroom"
             className="h-80 w-full rounded-2xl object-cover shadow-lg"
           />

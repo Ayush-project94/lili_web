@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { navLinks } from "../../data/site";
+import logo from "../../assets/lili-logo.png";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto grid max-w-7xl gap-8 px-5 py-10 md:grid-cols-4">
         <div>
           <img
-            src="/src/assets/lili-logo.png"
+            src={logo}
             alt="Lili Org."
             className="h-16 w-16 object-contain"
           />

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import heroImage from "../../assets/hero.jpg";
 
 export default function Hero() {
   return (
@@ -43,7 +44,7 @@ export default function Hero() {
 
         <div className="relative">
           <img
-            src="/src/assets/hero.jpg"
+            src={heroImage}
             alt="Students learning"
             className="h-[340px] w-full rounded-2xl object-cover shadow-xl md:h-[430px]"
           />
